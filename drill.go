@@ -13,6 +13,6 @@ func Checkout(p PaymentProcessor, total int) {
 }
 
 func main() {
-	s := Stripe{}
+	s := Stripe{}QW
 	Checkout(s, 50)
 }
